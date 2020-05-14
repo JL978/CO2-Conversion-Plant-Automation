@@ -18,28 +18,28 @@ Additionally, there are 5 different streams of gas plus a combination of all of 
 ![Main Application User Interface](maindemo.png)<br/>
 *The main user interface*
 
-Allow user to define time between runs in 30 seconds increment
-Allow the user to pick which defined cycle they want the program to run at (calling from a sqlite database)
-Allow the user to choose if they want to switch the sampling to the anode side (anode side runs are not an often occurence)
-Starting and stopping the program at anytime
-Adding a newly defined cycle (saving it to a sqlite database)
+* Allow user to define time between runs in 30 seconds increment
+* Allow the user to pick which defined cycle they want the program to run at (calling from a sqlite database)
+* Allow the user to choose if they want to switch the sampling to the anode side (anode side runs are not an often occurence)
+* Starting and stopping the program at anytime
+* Adding a newly defined cycle (saving it to a sqlite database)
 
 ![Sequence Edit User Interface](seqEdemo.png)<br/>
 *The window that let users create a new cycle definition and add it to the database*
 
-Viewing saved cycles and deleting them (removal from the database)
+* Viewing saved cycles and deleting them (removal from the database)
 
 ![Sequence View User Interface](seqVDemo.png)<br/>
 *The window that let users create a new cycle definition and add it to the database*
 
-Collect the converted data the csv files and apply Simpson's rule integration at known gas peak to find peak area
-Used the collected peak areas to convert into useful data such as molar flow, FE, etc.
-View an important parameter called FE in real time
+* Collect the converted data the csv files and apply Simpson's rule integration at known gas peak to find peak area
+* Use the collected peak areas to convert into useful data such as molar flow, FE, etc.
+* View an important parameter called FE in real time
 
 ![FE View User Interface](FEDemo.gif)<br/>
 *FE view window*
 
-Graph all the important paramters in real time by integrating matplotlib with PyQt5
+* Graph all the important paramters in real time by integrating matplotlib with PyQt5
 
 ![Graphing User Interface](GraphDemo.gif)<br/>
 *Graphing window*
