@@ -29,7 +29,7 @@ Adding a newly defined cycle (saving it to a sqlite database)
 
 Viewing saved cycles and deleting them (removal from the database)
 
-![Sequence View User Interface](seqVdemo.png)<br/>
+![Sequence View User Interface](seqVDemo.png)<br/>
 *The window that let users create a new cycle definition and add it to the database*
 
 Collect the converted data the csv files and apply Simpson's rule integration at known gas peak to find peak area
