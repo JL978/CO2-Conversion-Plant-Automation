@@ -9,7 +9,7 @@ Within a CO2 conversion pilot, gas anylsis requires starting up the Gas Chromato
 
 To anlyze the data, one must take the integration of different peaks in the output raw chromatogram which can become a very tedious task to do. To automate this task, the raw files must be converted into csv files. This task can only be done by image analysis through a software called openchrom. This process was then also automated using pyautogui. The csv file can be analyzed using the scipy package.
 
-![GC chromatogram example](integration.png)<br/>
+![GC chromatogram example](integration.PNG)<br/>
 *example of a chromatogram output raw file and manual integration*
 
 Additionally, there are 5 different streams of gas plus a combination of all of them that need to be cycled through every sampling cycle. Depending on the stream type, different data can be collected. To solve this problem, the main app allow the user to define the cycle in which the output gas to the sampling line take place, which side of the reactor the gas is coming from (cathode or anode), and how frequent to run the program. 
