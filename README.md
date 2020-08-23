@@ -1,4 +1,4 @@
-# gcGUI
+# CO2 to Ethylene Conversion Plant Automation
 A gui desktop app used to automate the data acquisition and analysis at an CO2 to Ethylene pilot plant. The app was created using a combiniation PyQt5, pyautogui and matplotlib. 
 
 ![demo](https://media.giphy.com/media/fwWIj4aV3sTVQ3q4V5/giphy.gif)
