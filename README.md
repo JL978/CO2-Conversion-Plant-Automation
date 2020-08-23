@@ -1,13 +1,13 @@
 # CO2 to Ethylene Conversion Plant Automation
-A gui desktop app used to automate the data acquisition and analysis at an CO2 to Ethylene pilot plant. The app was created using a combiniation PyQt5, pyautogui and matplotlib. 
+A gui desktop app used to automate the data acquisition and analysis at an CO2 to Ethylene pilot plant. The app was created using a combiniation the PyQt5, pyautogui and matplotlib libraries. 
 
 ![demo](https://media.giphy.com/media/fwWIj4aV3sTVQ3q4V5/giphy.gif)
 ![demo](https://media.giphy.com/media/lNLqYjPlkGNwbvKhVk/giphy.gif)
 
 ## Motivation
-Within a CO2 conversion pilot, gas anylsis requires starting up the Gas Chromatography (GC) machineevery approximately 20 mins to take a sample. The software associated with the machine however does not allow for automatic run set up, therefore pyautogui was used to locate the software and run the machine manually. 
+Within a CO2 conversion pilot, gas analysis requires starting up the Gas Chromatography (GC) machine approximately every 20 mins to take a sample. The software associated with the machine however does not come with an exposed API, therefore pyautogui was used to locate the software and run the machine manually. 
 
-To anlyze the data, one must take the integration of different peaks in the output raw chromatogram which can become a very tedious task to do. To automate this task, the raw files must be converted into csv files. This task can only be done by image analysis through a software called openchrom. This process was then also automated using pyautogui. The csv file can be analyzed using the scipy package.
+Futhemore, to anlyze the data, one must take the integration of different peaks in the output raw chromatogram which can become a very tedious task to do. To automate this task, the raw files must be converted into csv files. This task can only be done by image analysis through a software called openchrom. This process was then also automated using pyautogui. The csv file can be analyzed using the scipy package.
 
 ![GC chromatogram example](integration.PNG)<br/>
 *example of a chromatogram output raw file and manual integration*
